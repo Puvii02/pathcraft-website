@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PathCraft - Course Recommendation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to PathCraft</h1>
+        <p>Your AI-powered Course Recommendation System</p>
+    </header>
+
+    <!-- Form Section -->
+    <section id="form-section">
+        <h2>Find the Best Course for You</h2>
+        <form id="courseForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            
+            <label for="interest">Your Interests:</label>
+            <input type="text" id="interest" placeholder="Eg: Programming, AI, Design" required>
+            
+            <label for="goal">Career Goal:</label>
+            <input type="text" id="goal" placeholder="Eg: Data Scientist, Web Developer" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Output Section -->
+    <section id="output-section">
+        <h2>Recommended Courses</h2>
+        <div id="output"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
